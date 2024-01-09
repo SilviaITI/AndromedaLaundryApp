@@ -18,7 +18,6 @@
 		619532C92B4AB81D005001B5 /* AndromedaLaundryAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619532C82B4AB81D005001B5 /* AndromedaLaundryAppUITestsLaunchTests.swift */; };
 		619532D72B4C58FD005001B5 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619532D62B4C58FD005001B5 /* HomeView.swift */; };
 		619532DC2B4C692D005001B5 /* ButtonHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619532DB2B4C692D005001B5 /* ButtonHomeView.swift */; };
-		619532DF2B4C6CE6005001B5 /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619532DE2B4C6CE5005001B5 /* DetailView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,7 +52,6 @@
 		619532C82B4AB81D005001B5 /* AndromedaLaundryAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AndromedaLaundryAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		619532D62B4C58FD005001B5 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		619532DB2B4C692D005001B5 /* ButtonHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonHomeView.swift; sourceTree = "<group>"; };
-		619532DE2B4C6CE5005001B5 /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -161,7 +159,6 @@
 		619532DD2B4C6CC4005001B5 /* Details */ = {
 			isa = PBXGroup;
 			children = (
-				619532DE2B4C6CE5005001B5 /* DetailView.swift */,
 			);
 			path = Details;
 			sourceTree = "<group>";
@@ -299,7 +296,6 @@
 				619532B02B4AB81C005001B5 /* Persistence.swift in Sources */,
 				619532A92B4AB81B005001B5 /* ContentView.swift in Sources */,
 				619532B32B4AB81C005001B5 /* AndromedaLaundryApp.xcdatamodeld in Sources */,
-				619532DF2B4C6CE6005001B5 /* DetailView.swift in Sources */,
 				619532D72B4C58FD005001B5 /* HomeView.swift in Sources */,
 				619532A72B4AB81B005001B5 /* AndromedaLaundryAppApp.swift in Sources */,
 				619532DC2B4C692D005001B5 /* ButtonHomeView.swift in Sources */,

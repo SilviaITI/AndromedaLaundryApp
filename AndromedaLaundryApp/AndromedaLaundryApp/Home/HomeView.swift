@@ -13,17 +13,19 @@ struct HomeView: View {
             Text("¿Qué lavanderia quieres conocer?")
                 .font(.title2)
                 .bold()
-
-            Button(action: {}, label: {
-            ButtonHomeView(text: "Calle Andrómeda 23 (Móstoles)", imageName: "localAndromeda")
-            })
-            
-            Button(action: {}, label: {
-                ButtonHomeView(text: "Calle Maqueda 120 (Aluche)", imageName: "localMaqueda")
-            })
-            Button(action: {}, label: {
-          ButtonHomeView(text: "Calle Guetaria 72 (Orcasitas)", imageName: "localGuetaria")})
-            
+            VStack(spacing: 16) {
+                
+                Button(action: {}, label: {
+                    ButtonHomeView(text: "Calle Andrómeda 23 (Móstoles)", imageName: "localAndromeda")
+                })
+                
+                Button(action: {}, label: {
+                    ButtonHomeView(text: "Calle Maqueda 120 (Aluche)", imageName: "localMaqueda")
+                })
+                Button(action: {}, label: {
+                    ButtonHomeView(text: "Calle Guetaria 72 (Orcasitas)", imageName: "localGuetaria")})
+                
+            }
         }
     }
 }
