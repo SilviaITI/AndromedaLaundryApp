@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		618460BF2B4D6EF900D9691B /* DetailView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 618460BE2B4D6EF900D9691B /* DetailView.swift */; };
+		618460C12B4D6FB500D9691B /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 618460C02B4D6FB500D9691B /* MapView.swift */; };
+		618460C32B4D764000D9691B /* DetailViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 618460C22B4D764000D9691B /* DetailViewModel.swift */; };
 		619532A72B4AB81B005001B5 /* AndromedaLaundryAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619532A62B4AB81B005001B5 /* AndromedaLaundryAppApp.swift */; };
 		619532A92B4AB81B005001B5 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619532A82B4AB81B005001B5 /* ContentView.swift */; };
 		619532AB2B4AB81C005001B5 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 619532AA2B4AB81C005001B5 /* Assets.xcassets */; };
@@ -18,6 +21,7 @@
 		619532C92B4AB81D005001B5 /* AndromedaLaundryAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619532C82B4AB81D005001B5 /* AndromedaLaundryAppUITestsLaunchTests.swift */; };
 		619532D72B4C58FD005001B5 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619532D62B4C58FD005001B5 /* HomeView.swift */; };
 		619532DC2B4C692D005001B5 /* ButtonHomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 619532DB2B4C692D005001B5 /* ButtonHomeView.swift */; };
+		61BFA5BA2B504DCE0052C7AB /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61BFA5B92B504DCE0052C7AB /* HomeViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -38,6 +42,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		618460BE2B4D6EF900D9691B /* DetailView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailView.swift; sourceTree = "<group>"; };
+		618460C02B4D6FB500D9691B /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
+		618460C22B4D764000D9691B /* DetailViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewModel.swift; sourceTree = "<group>"; };
 		619532A32B4AB81B005001B5 /* AndromedaLaundryApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AndromedaLaundryApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		619532A62B4AB81B005001B5 /* AndromedaLaundryAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AndromedaLaundryAppApp.swift; sourceTree = "<group>"; };
 		619532A82B4AB81B005001B5 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -52,6 +59,7 @@
 		619532C82B4AB81D005001B5 /* AndromedaLaundryAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AndromedaLaundryAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
 		619532D62B4C58FD005001B5 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		619532DB2B4C692D005001B5 /* ButtonHomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonHomeView.swift; sourceTree = "<group>"; };
+		61BFA5B92B504DCE0052C7AB /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -144,6 +152,7 @@
 			isa = PBXGroup;
 			children = (
 				619532D62B4C58FD005001B5 /* HomeView.swift */,
+				61BFA5B92B504DCE0052C7AB /* HomeViewModel.swift */,
 			);
 			path = Home;
 			sourceTree = "<group>";
@@ -152,6 +161,7 @@
 			isa = PBXGroup;
 			children = (
 				619532DB2B4C692D005001B5 /* ButtonHomeView.swift */,
+				618460C02B4D6FB500D9691B /* MapView.swift */,
 			);
 			path = Components;
 			sourceTree = "<group>";
@@ -159,6 +169,8 @@
 		619532DD2B4C6CC4005001B5 /* Details */ = {
 			isa = PBXGroup;
 			children = (
+				618460BE2B4D6EF900D9691B /* DetailView.swift */,
+				618460C22B4D764000D9691B /* DetailViewModel.swift */,
 			);
 			path = Details;
 			sourceTree = "<group>";
@@ -294,8 +306,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				619532B02B4AB81C005001B5 /* Persistence.swift in Sources */,
+				618460C12B4D6FB500D9691B /* MapView.swift in Sources */,
 				619532A92B4AB81B005001B5 /* ContentView.swift in Sources */,
+				61BFA5BA2B504DCE0052C7AB /* HomeViewModel.swift in Sources */,
 				619532B32B4AB81C005001B5 /* AndromedaLaundryApp.xcdatamodeld in Sources */,
+				618460C32B4D764000D9691B /* DetailViewModel.swift in Sources */,
+				618460BF2B4D6EF900D9691B /* DetailView.swift in Sources */,
 				619532D72B4C58FD005001B5 /* HomeView.swift in Sources */,
 				619532A72B4AB81B005001B5 /* AndromedaLaundryAppApp.swift in Sources */,
 				619532DC2B4C692D005001B5 /* ButtonHomeView.swift in Sources */,
