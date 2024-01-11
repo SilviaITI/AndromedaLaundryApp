@@ -12,6 +12,18 @@ enum SelectedStore {
     case andromeda
     case maqueda
     case guetaria
+    
+    var title: String {
+        switch self {
+        case .andromeda:
+            return ""
+        case .maqueda:
+            return ""
+        case .guetaria:
+            return ""
+        }
+    }
+    
 }
 final class DetailViewModel: ObservableObject {
     
@@ -28,6 +40,7 @@ final class DetailViewModel: ObservableObject {
     func switchStore() {
         switch store {
         case .andromeda:
+            print(store.title)
             break
         case .maqueda:
             break
