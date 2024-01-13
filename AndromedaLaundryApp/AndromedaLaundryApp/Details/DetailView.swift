@@ -10,9 +10,15 @@ import MapKit
 
 struct DetailView: View {
     @StateObject var viewModel: DetailViewModel
+    var store: StoreModel
     var body: some View {
+     
         VStack {
-            MapView(latitud: 40.39042, longitud: -3.76211)
+            Text(store.title)
+            CarouselView(images: store.imagesCarousel)
+            MapView(latitud: store.latitud, longitud: store.longitud)
+           
+            
          
         
         }

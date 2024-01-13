@@ -12,40 +12,42 @@ enum SelectedStore {
     case andromeda
     case maqueda
     case guetaria
-    
-    var title: String {
-        switch self {
-        case .andromeda:
-            return ""
-        case .maqueda:
-            return ""
-        case .guetaria:
-            return ""
-        }
-    }
-    
 }
 final class DetailViewModel: ObservableObject {
     
     @Published var store: SelectedStore
-    @Published var map: MapView
+    @Published var storeData: StoreData?
     @Published var imagesCarousel: [String]
     
-    init(store: SelectedStore, map: MapView, imagesCarousel: [String]) {
+    init(store: SelectedStore) {
         self.store = store
-        self.map = map
-        self.imagesCarousel = imagesCarousel
+        self.imagesCarousel = []
+        
+        switchStore()
+      
     }
     
     func switchStore() {
         switch store {
         case .andromeda:
-            print(store.title)
-            break
+            loadData(jsonString: StoreData.andromedaJSON)
         case .maqueda:
-            break
+            loadData(jsonString: StoreData.maquedaJSON)
         case .guetaria:
-            break
+            loadData(jsonString: StoreData.guetariaJSON)
+        }
+    }
+    
+    private func loadData(jsonString: String) {
+        if let jsonData = jsonString.data(using: .utf8) {
+            let decoder = JSONDecoder()
+            do {
+                storeData = try decoder.decode(StoreData.self, from: jsonData)
+            } catch {
+                print("Error al decodificar el JSON: \(error)")
+            }
+        } else {
+            print("Error al convertir el JSON a Data")
         }
     }
 }

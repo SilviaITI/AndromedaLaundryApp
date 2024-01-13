@@ -15,7 +15,8 @@ struct HomeView: View {
                 .bold()
             VStack(spacing: 16) {
                 
-                Button(action: {}, label: {
+                Button(action: {
+                }, label: {
                     ButtonHomeView(text: "Calle Andrómeda 23 (Móstoles)", imageName: "localAndromeda")
                 })
                 
