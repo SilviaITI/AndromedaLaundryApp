@@ -19,6 +19,6 @@ struct DetailView: View {
     }
 }
 
-#Preview {
-    DetailView()
-}
+//#Preview {
+//    DetailView()
+//}
