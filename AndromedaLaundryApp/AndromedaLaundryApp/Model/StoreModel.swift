@@ -11,8 +11,7 @@ import MapKit
 struct StoreModel {
     var title: String
     var openingHours: String
-    var latitud: Double
-    var longitud: Double
+    var location: LocationAnotation
     var precios: [String: String]
     var urlStore: String
     var imagesCarousel: [String]

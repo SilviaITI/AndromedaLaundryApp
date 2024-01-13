@@ -11,19 +11,19 @@ struct CarouselView: View {
     let images: [String]
 
     var body: some View {
-        ScrollView(.horizontal, showsIndicators: true) {
+        ScrollView(.horizontal, showsIndicators: false) {
             HStack(spacing: 6) {
                 ForEach(images, id: \.self) { imageName in
                     Image(imageName)
                         .resizable()
                         .scaledToFill()
-                        .frame(width: 300, height:200)
+                        .frame(width: 250, height:150)
                         .border(Color.black, width: 4)
                         
                 }
             }
         }
-        .edgesIgnoringSafeArea(.all)
+        .padding(.leading)
     }
 }
 

@@ -25,6 +25,7 @@
 		61BFA5BA2B504DCE0052C7AB /* HomeViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61BFA5B92B504DCE0052C7AB /* HomeViewModel.swift */; };
 		61BFA5BD2B528C8A0052C7AB /* StoreModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61BFA5BC2B528C8A0052C7AB /* StoreModel.swift */; };
 		61BFA5BF2B528D3B0052C7AB /* StoreData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61BFA5BE2B528D3B0052C7AB /* StoreData.swift */; };
+		61F304302B52FBD500F565F2 /* LocationAnotation.swift in Sources */ = {isa = PBXBuildFile; fileRef = 61F3042F2B52FBD500F565F2 /* LocationAnotation.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -66,6 +67,7 @@
 		61BFA5B92B504DCE0052C7AB /* HomeViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewModel.swift; sourceTree = "<group>"; };
 		61BFA5BC2B528C8A0052C7AB /* StoreModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreModel.swift; sourceTree = "<group>"; };
 		61BFA5BE2B528D3B0052C7AB /* StoreData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StoreData.swift; sourceTree = "<group>"; };
+		61F3042F2B52FBD500F565F2 /* LocationAnotation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LocationAnotation.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -188,6 +190,7 @@
 			children = (
 				61BFA5BC2B528C8A0052C7AB /* StoreModel.swift */,
 				61BFA5BE2B528D3B0052C7AB /* StoreData.swift */,
+				61F3042F2B52FBD500F565F2 /* LocationAnotation.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -332,6 +335,7 @@
 				619532B32B4AB81C005001B5 /* AndromedaLaundryApp.xcdatamodeld in Sources */,
 				618460C32B4D764000D9691B /* DetailViewModel.swift in Sources */,
 				618460BF2B4D6EF900D9691B /* DetailView.swift in Sources */,
+				61F304302B52FBD500F565F2 /* LocationAnotation.swift in Sources */,
 				619532D72B4C58FD005001B5 /* HomeView.swift in Sources */,
 				619532A72B4AB81B005001B5 /* AndromedaLaundryAppApp.swift in Sources */,
 				619532DC2B4C692D005001B5 /* ButtonHomeView.swift in Sources */,
